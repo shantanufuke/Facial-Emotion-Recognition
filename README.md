@@ -44,4 +44,6 @@ Resize test images to match the model input dimensions and generate a NumPy arra
 Predict class labels using the trained model and evaluate predictions using accuracy_score from sklearn.metrics.
 
 ## Conclusion
-We successfully developed a CNN model to classify human emotions from facial images with high accuracy, leveraging a large dataset and implementing a custom architecture. The intuitive GUI built with Gradio enhances user interaction and understanding of the classification process, providing a seamless experience for emotion identification.
+We successfully developed a CNN model to classify human emotions from facial images with high accuracy, leveraging a large dataset and implementing a custom architecture. The system includes real-time emotion recognition using OpenCV for face detection and a pre-trained model for emotion prediction. The intuitive GUI built with Gradio enhances user interaction and understanding of the classification process, providing a seamless experience for emotion identification.
+
+The run_emotion_recognition function facilitates real-time emotion recognition by capturing video, detecting faces, and predicting emotions, with results displayed directly on the video feed. This interactive approach allows for practical applications and immediate feedback, making the model not only a powerful tool for emotion classification but also an accessible and engaging experience for users.
